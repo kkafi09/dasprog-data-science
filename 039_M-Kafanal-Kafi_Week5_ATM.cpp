@@ -18,7 +18,7 @@ int main() {
     cout << "1. Cek Saldo" << endl;
     cout << "2. Tarik Tunai" << endl;
     cout << "3. Setor Tunai" << endl;
-    cout << "\nInput pilihan : ";
+    cout << "Input pilihan : ";
     cin >> action;
 
     switch (action) {

@@ -54,7 +54,7 @@ int main() {
     * Standar Deviasi
     */
     float standar_deviasi = 0;
-    float varians = 0;
+    int varians = 0;
     for (int i = 0; i < n*m; i++) {
         varians += (temp[i] - mean) * (temp[i] - mean); 
     }
